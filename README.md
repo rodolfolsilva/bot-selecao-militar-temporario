@@ -26,9 +26,12 @@ config = {"bot_key":"key_do_seu_bot","grupo_id":id_do_seu_grupo(int),"url":"http
 
 # Em caso do erro abaixo:
 
+```sh
 from bs4 import BeautifulSoup
 ImportError: No module named bs4
+```
 
+Instale a BeautifulSoup4 
 ```sh
 pip install BeautifulSoup4
 ```
