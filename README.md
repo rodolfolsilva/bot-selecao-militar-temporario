@@ -31,7 +31,7 @@ from bs4 import BeautifulSoup
 ImportError: No module named bs4
 ```
 
-Instale a BeautifulSoup4 
+Instale a lib BeautifulSoup4 
 ```sh
 pip install BeautifulSoup4
 ```
@@ -44,5 +44,3 @@ pip install BeautifulSoup4
 License
 ----
 MIT
-
-
