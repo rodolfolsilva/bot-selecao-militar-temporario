@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 __author__ = "Jhonathan Davi A.K.A jh00nbr"
 __email__ = "jdavi@insightsecurity.com.br"
 
-config = {"bot_key":"key_do_seu_bot","grupo_id":id_do_grupo(int),"url":"http://www.11rm.eb.mil.br/index.php/ultimas-noticias/143-cet-cabo-especialista-temporario-2016"}
+config = {"bot_key":"261017118:AAHXEGUA1kYXu8_cvWoyuOpWY0JKw38Ets0","grupo_id":-176072627,"url":"http://www.7rm.eb.mil.br/index.php/processos-seletivos/item/26-ott-oficial-tecnico-temporario-resultados-de-divulgacao-2015-2"}
 bot = telepot.Bot(config['bot_key'])
 group = config['grupo_id']
 
@@ -31,11 +31,11 @@ def verificar_novidades():
     req = requests.get(config['url'],headers={'User-Agent': ua})
     soup = BeautifulSoup(req.content,'html.parser')
 
-    conteudo_div = soup.find('div',{'class':'item-page'})
+    conteudo_div = soup.find('div',{'class':'itemView'})
     if conteudo_div.findAll('a'):
         atualizacoes = conteudo_div.findAll('a')
     
-    qnt_novidades = 10 # Quantidade de noticias em 19/10/2016
+    qnt_novidades = 6 # Quantidade de noticias em 19/10/2016
     novidades = []
 
     for novidade in atualizacoes:
