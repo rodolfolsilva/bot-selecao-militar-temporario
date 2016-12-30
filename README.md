@@ -38,7 +38,7 @@ pip install BeautifulSoup4
 
 ### Todos
 
- - Mapeamento das páginas dos sistes de seleção
+ - Mapeamento das páginas dos sites de seleção
  - Add Code Comments
 
 License
