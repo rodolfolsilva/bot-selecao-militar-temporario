@@ -10,6 +10,9 @@ from bs4 import BeautifulSoup
 # Github: github.com/jh00nbr
 # Twitter @jh00nbr
 
+# Rodolfo Silva A.K.A --
+#
+
 __author__ = "Jhonathan Davi A.K.A jh00nbr"
 __email__ = "jdavi@insightsecurity.com.br"
 
